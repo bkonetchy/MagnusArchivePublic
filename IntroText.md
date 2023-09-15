@@ -144,7 +144,3 @@ occuring.
     definitive connection. Possible - Used as a place holder if user is
     not sure of a connection, but believes there could be one.
 
-**Future Updates** <br/> current focus is to create a new section that
-will allow for the database to be analyzed and cross-referenced in order
-to start finding and making case connections and over arching story
-ideas.
