@@ -24,16 +24,20 @@ ui <- dashboardPage(skin = 'blue',
         sidebarMenu(
             # Setting id makes input$tabs give the tabName of currently-selected tab
             id = "tabs",
-            menuItem(text = 'Home', tabName = 'home', icon = icon('home')),
             menuItem(text = 'Map', tabName = 'map', icon = icon('map')),
             menuItem(text = 'Time Line', tabName = 'timeline', icon = icon('clock')),
+            menuItem(text = 'Help', tabName = 'help', icon = icon('circle-info')),
             menuItemOutput(outputId = 'dbmenuitem')
         )
     ),
     dashboardBody(
         tabItems(
             # HOME
-            tabItem(tabName = 'home', includeMarkdown(path = 'IntroText.md')), 
+            tabItem(tabName = 'help', 
+                    tags$iframe(src = './IntroText.html', # put myMarkdown.html to /www
+                                width = '100%', height = '800px', 
+                                frameborder = 0, scrolling = 'auto'
+                    )),
             # MAP 
             tabItem(tabName = 'map',
                     fluidRow(
