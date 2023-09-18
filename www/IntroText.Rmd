@@ -15,13 +15,9 @@ output:
 Magnus Archives dashboard was developed to allow listeners of the
 [Magnus Archives Podcast](http://rustyquill.com/the-magnus-archives/),
 to follow along with the podcast and develop their own research and
-notes into the cases. The Home tab will contain all the information
+notes into the cases. The Help tab will contain all the information
 needed to use and understand the dashboard and is the primary place to
-get started using the dashboard. For a full understanding of how it was
-created, along with the code and inner workings then check out the "
-\_\_\_\_\_" on my website. Any additional updates to the dashboard or
-changes will be posted there, and any additional changes on how to use
-the dashboard will be kept here with the dashboard itself.
+get started using the dashboard.
 
 # Dashboard Sections
 
