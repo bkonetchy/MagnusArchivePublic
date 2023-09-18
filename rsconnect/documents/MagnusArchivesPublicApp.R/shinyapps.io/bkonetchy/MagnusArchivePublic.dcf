@@ -1,0 +1,13 @@
+name: MagnusArchivePublic
+title: MagnusArchivePublic
+username: bkonetchy
+account: bkonetchy
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 9898665
+bundleId: 7697565
+url: https://bkonetchy.shinyapps.io/MagnusArchivePublic/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: IntroText.md|IntroText.Rmd
