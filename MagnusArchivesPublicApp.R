@@ -46,7 +46,7 @@ ui <- dashboardPage(skin = 'blue',
                                )
                     ),
                     fluidRow(
-                        leafletOutput(outputId = 'map', width = '100%', height = 800),
+                        box(leafletOutput(outputId = 'map', width = '100%', height = 700), width = "100%"),
                     )
                     ),
             # Timeline graph
